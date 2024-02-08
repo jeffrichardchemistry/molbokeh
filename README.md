@@ -1,5 +1,5 @@
 # MolBokeh
-[![PyPI version](https://img.shields.io/pypi/v/molbokeh)]([https://pypi.python.org/pypi/molplotly](https://pypi.org/project/MolBokeh/)) [![This project supports Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org/downloads)
+[![PyPI version](https://img.shields.io/pypi/v/molbokeh)](https://pypi.python.org/pypi/molbokeh) [![This project supports Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org/downloads)
 <!--[![PyPI Downloads](https://static.pepy.tech/badge/molbokeh)](https://www.pepy.tech/projects/molbokeh)-->
 
 
