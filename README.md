@@ -28,7 +28,11 @@ fig = figure(width=600, height=500,tools="pan,box_zoom,wheel_zoom,zoom_in,zoom_o
 fig.scatter(x='MolWt', y='MolLogP', source=source, size=12,alpha=0.6)
 
 ## Adding molecules
-fig = MolBokeh().add_molecule(fig=fig, source=source, smilesColName='Smiles_canon', hoverAdditionalInfo=['MolWt','MolLogP','nRing','qed','TPSA'], molSize=(100,100))
+fig = MolBokeh().add_molecule(fig=fig,
+                              source=source,
+                              smilesColName='Smiles_canon',
+                              hoverAdditionalInfo=['MolWt','MolLogP','nRing','qed','TPSA'],
+                              molSize=(100,100))
 show(fig)
 
 ```
