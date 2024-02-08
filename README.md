@@ -1,11 +1,7 @@
 # MolBokeh
 MolBokeh is a simple package for viewing the image of molecules in interactive graphics from the Bokeh package without the need to run a web application such as flask or dash in the backend, thus facilitating integration with other tools and codes.
 
-![gif1]()
-
-![gif2]()
-
-
+![gif1](https://github.com/jeffrichardchemistry/molbokeh/blob/dev/example/content/molbokehview1.gif) ![gif2](https://github.com/jeffrichardchemistry/molbokeh/blob/dev/example/content/molbokehview2.gif)
 
 # Installation
 
