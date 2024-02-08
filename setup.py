@@ -14,6 +14,7 @@ setup(
     description='Simple package to display molecules images in bokeh interactive charts.',
     long_description = description,
     long_description_content_type = "text/markdown",
+    packages=['MolBokeh'],
     include_package_data=True,
     install_requires=['pandas','bokeh','rdkit'],
     #install_requires=['pandas<=2.0.3', 'numpy<=1.24.4', 'tqdm', 'numba>=0.54.1'],
