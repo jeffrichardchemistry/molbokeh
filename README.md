@@ -5,7 +5,7 @@ MolBokeh is a simple package for viewing the image of molecules in interactive g
 
 # Installation
 
-`pip3 install molbokeh`
+```pip3 install molbokeh```
 
 
 # Simple usage
