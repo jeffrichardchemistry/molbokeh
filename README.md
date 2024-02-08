@@ -16,7 +16,7 @@ pip3 install molbokeh
 
 # Simple usage
 
-For more detailed usage examples, look the notebook at `example/how_to_use.ipynb`
+For more detailed usage examples, look the notebook at `example/how_to_use.ipynb` or open in [Google Colab (Opt1)](https://colab.research.google.com/drive/1SJPolSM_ZgjTMkra5LqQpk0mC5Jomqv8#scrollTo=dBJ3u_ivn-z-), [Colab (Opt2)](https://drive.google.com/file/d/1SJPolSM_ZgjTMkra5LqQpk0mC5Jomqv8/view?usp=sharing)
 
 ```python
 import pandas as pd
