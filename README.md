@@ -1,4 +1,8 @@
 # MolBokeh
+[![PyPI version](https://img.shields.io/pypi/v/molbokeh)]([https://pypi.python.org/pypi/molplotly](https://pypi.org/project/MolBokeh/)) [![This project supports Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org/downloads)
+<!--[![PyPI Downloads](https://static.pepy.tech/badge/molbokeh)](https://www.pepy.tech/projects/molbokeh)-->
+
+
 MolBokeh is a simple package for viewing the image of molecules in interactive graphics from the Bokeh package without the need to run a web application such as flask or dash in the backend, thus facilitating integration with other tools and codes.
 
 <img src="https://github.com/jeffrichardchemistry/molbokeh/blob/dev/example/content/molbokehview1.gif" width="400"/> <img src="https://github.com/jeffrichardchemistry/molbokeh/blob/dev/example/content/molbokehview2.gif" width="400"/>
