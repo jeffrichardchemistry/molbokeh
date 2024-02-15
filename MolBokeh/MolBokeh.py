@@ -67,16 +67,15 @@ class MolBokeh:
             </div>
             """
         else:
-            tagsinfo2html = '\n'.join([f'<p style="text-align: center;"><strong>{colnames}:</strong> @{colnames}</p>' for colnames in hoverAdditionalInfo])
-
+            tagsinfo2html = '\n'.join([f'<p style="text-align: center;"><strong>{colnames}:</strong> @openbrac{colnames}closebrac</p>' for colnames in hoverAdditionalInfo])
             tooltips = f"""
             <div>
                 <img src="@{molimgColName}" alt="Imagem" style="width: {molSize[0]}px; height: {molSize[0]}px;">
                 {tagsinfo2html}                
             </div>
-            """
+            """.replace("openbrac","{").replace("closebrac","}")
         
-        return tooltips 
+        return tooltips
 
     def __cleanOriginalHover(self,fig):
         """

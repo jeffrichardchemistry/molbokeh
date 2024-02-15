@@ -5,7 +5,7 @@ with open("README.md", 'r') as fr:
 
 setup(
     name='MolBokeh',
-    version='1.0.0',
+    version='1.0.1',
     url='https://github.com/jeffrichardchemistry/molbokeh',
     license='MIT',
     author='Jefferson Richard',
@@ -25,7 +25,7 @@ setup(
 		'Topic :: Scientific/Engineering :: Physics',
 		'Topic :: Scientific/Engineering :: Bio-Informatics',
 		'Topic :: Scientific/Engineering',
-		'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+		'License :: OSI Approved :: MIT License',
 		'Natural Language :: English',
 		'Operating System :: Microsoft :: Windows',
 		'Operating System :: POSIX :: Linux',
